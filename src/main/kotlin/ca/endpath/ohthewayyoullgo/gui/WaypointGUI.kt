@@ -18,7 +18,7 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
     private lateinit var waypointList : ScrollPanel
     private lateinit var waypoints : HashMap<ToggleButton, Waypoint>
     private var activeWaypoint: ToggleButton? = null
-    val minecraftInstance: Minecraft = Minecraft.getInstance()
+    private val minecraftInstance: Minecraft = Minecraft.getInstance()
 
     override fun doesEscCloseGui(): Boolean = true
 
