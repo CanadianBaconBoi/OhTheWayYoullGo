@@ -1,7 +1,7 @@
 # Oh The Way You'll Go
 [![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
-[![Issues Badge](https://img.shields.io/github/issues/CanadianBaconBoi/OhTheWayYoullGo)](https://github.com/CanadianBaconBoi/OhTheWayYoullGo/issues)
 ![Minecraft Version](https://img.shields.io/badge/MC--Version-1.15.2-informational)
+[![Issues Badge](https://img.shields.io/github/issues/CanadianBaconBoi/OhTheWayYoullGo)](https://github.com/CanadianBaconBoi/OhTheWayYoullGo/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/CanadianBaconBoi/OhTheWayYoullGo)](https://github.com/CanadianBaconBoi/OhTheWayYoullGo/pulls)
 ### Why We Made This
 1. Journeymap is unstable in it's current state.
