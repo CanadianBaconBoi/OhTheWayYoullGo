@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/OhTheWayYoullGo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="Update and Add EGUILIB dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/gui/WaypointGUI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Map.kt" afterDir="false" />
     </list>
+    <list id="a6eb19d1-a7ec-4061-8db8-1a8da7dce0ba" name="Updating README.md" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595658843090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating README.md">
+      <created>1595664705816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595664705816</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding clientside only bullshittery">
+      <created>1595664827969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595664827969</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update and Add EGUILIB dependencies">
+      <created>1595665759769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595665759769</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,31 +149,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Updating .idea files" />
+    <MESSAGE value="Make it so the server doesn't require the mod" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Adding clientside only bullshittery" />
+    <MESSAGE value="Update and Add EGUILIB dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update and Add EGUILIB dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595658358002">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658358002" />
+    <state x="751" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1595667965540">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="751" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595667965540" />
     <state x="2613" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595657171401">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2613" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595657171401" />
-    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1595657003997">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1595664746692">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="92" y="92" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595664746692" />
     <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595657003997" />
-    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1595658411000">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1595666283212">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595666283212" />
     <state x="2660" y="281" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658411000" />
     <state x="2735" y="437" key="Github.ShareDialog" timestamp="1595658559438">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -160,21 +193,36 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2636" y="244" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658569326" />
-    <state x="2381" y="184" key="SettingsEditor" timestamp="1595659165668">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="848" y="407" width="223" height="283" key="MultipleFileMergeDialog" timestamp="1595664780395">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="848" y="407" width="223" height="283" key="MultipleFileMergeDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595664780395" />
+    <state x="740" y="242" key="RollbackChangesDialog" timestamp="1595664789857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="242" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595664789857" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1595664731010">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595664731010" />
     <state x="2381" y="184" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595659165668" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595658852056">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="807" y="454" key="VCS.ChangelistChooser" timestamp="1595664800368">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="807" y="454" key="VCS.ChangelistChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595664800368" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595665773585">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595665773585" />
     <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658852056" />
     <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595658459554">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658459554" />
-    <state x="2554" y="328" key="git4idea.merge.GitPullDialog" timestamp="1595659223416">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="634" y="328" key="git4idea.merge.GitPullDialog" timestamp="1595666090192">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="634" y="328" key="git4idea.merge.GitPullDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1595666090192" />
     <state x="2554" y="328" key="git4idea.merge.GitPullDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595659223416" />
     <state x="2262" y="150" key="new project wizard" timestamp="1595658363915">
       <screen x="1920" y="0" width="1920" height="1080" />
