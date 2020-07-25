@@ -18,11 +18,11 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
     private lateinit var waypointList : ScrollPanel
     private lateinit var waypoints : HashMap<ToggleButton, Waypoint>
     private var activeWaypoint: ToggleButton? = null
+    val minecraftInstance: Minecraft = Minecraft.getInstance()
 
     override fun doesEscCloseGui(): Boolean = true
 
     override fun buildGui() {
-
         guiTitle = Label("Waypoints", width/2, 15)
         addButton = Button(width/4, height-30, width/8, "Add Waypoint")
         deleteButton = Button(width/4*3, height-30, width/8,"Delete Waypoint")
@@ -32,11 +32,11 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
 
         reloadWaypointList()
 
-        nameBox.text = "${Minecraft.getInstance().player?.position?.x},${Minecraft.getInstance().player?.position?.y},${Minecraft.getInstance().player?.position?.z}"
+        nameBox.text = "${minecraftInstance.player?.position?.x},${minecraftInstance.player?.position?.y},${minecraftInstance.player?.position?.z}"
 
         waypointList.addAllComponents(*waypoints.keys.toTypedArray())
 
-        addButton.setClickListener(addWaypoint((Minecraft.getInstance().player as Entity)::getPosition, nameBox::getText))
+        addButton.setClickListener(addWaypoint((minecraftInstance.player as Entity)::getPosition, nameBox::getText))
         deleteButton.setClickListener(::activeWaypoint.get()?.let { deleteWaypoint(it) })
 
         addAllComponents(guiTitle, addButton, deleteButton)
@@ -60,9 +60,9 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
         Map.getWaypointManager().iterate { wp ->
             run {
                 val button = ToggleButton(0, 0, (width * 0.9).toInt(), 50, "")
-                button.drawString(Minecraft.getInstance().fontRenderer, if(button.value) "Selected" else "", (width * 0.9).toInt()+5, 25, 0xFF)
-                button.drawCenteredString(Minecraft.getInstance().fontRenderer, wp.name, width/2, 25, 0xFF)
-                button.drawRightAlignedString(Minecraft.getInstance().fontRenderer, "${wp.position.x},${wp.position.y},${wp.position.z}", (width * 0.9).toInt()-5, 25, 0xFF)
+                button.drawString(minecraftInstance.fontRenderer, if(button.value) "Selected" else "", (width * 0.9).toInt()+5, 25, 0xFF)
+                button.drawCenteredString(minecraftInstance.fontRenderer, wp.name, width/2, 25, 0xFF)
+                button.drawRightAlignedString(minecraftInstance.fontRenderer, "${wp.position.x},${wp.position.y},${wp.position.z}", (width * 0.9).toInt()-5, 25, 0xFF)
                 button.setClickListener(selectWaypoint(button))
                 waypoints[button] = wp
             }
