@@ -32,6 +32,8 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
 
         reloadWaypointList()
 
+        nameBox.text = "${Minecraft.getInstance().player?.position?.x},${Minecraft.getInstance().player?.position?.y},${Minecraft.getInstance().player?.position?.z}"
+
         waypointList.addAllComponents(*waypoints.keys.toTypedArray())
 
         addButton.setClickListener(addWaypoint((Minecraft.getInstance().player as Entity)::getPosition, nameBox::getText))
@@ -58,7 +60,7 @@ class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
         Map.getWaypointManager().iterate { wp ->
             run {
                 val button = ToggleButton(0, 0, (width * 0.9).toInt(), 50, "")
-                button.drawString(Minecraft.getInstance().fontRenderer, if(button.value) "Enabled" else "Disabled", (width * 0.9).toInt()+5, 25, 0xFF)
+                button.drawString(Minecraft.getInstance().fontRenderer, if(button.value) "Selected" else "", (width * 0.9).toInt()+5, 25, 0xFF)
                 button.drawCenteredString(Minecraft.getInstance().fontRenderer, wp.name, width/2, 25, 0xFF)
                 button.drawRightAlignedString(Minecraft.getInstance().fontRenderer, "${wp.position.x},${wp.position.y},${wp.position.z}", (width * 0.9).toInt()-5, 25, 0xFF)
                 button.setClickListener(selectWaypoint(button))
