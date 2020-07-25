@@ -16,13 +16,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="Updating README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/OhTheWayYoullGo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OhTheWayYoullGo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/StaticReferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Map.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Waypoint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/Waypoint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/WaypointManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ca/endpath/ohthewayyoullgo/backend/WaypointManager.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +60,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fAM16iNsRNMjtFV7Nf0SrWP52s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595658843090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Basic Implementation of Map, WaypointManager and Waypoint">
+      <created>1595665898963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595665898964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,11 +147,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -133,9 +172,14 @@
     </ignored-roots>
     <MESSAGE value="Updating .idea files" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="Basic Implementation of Map, WaypointManager and Waypoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Implementation of Map, WaypointManager and Waypoint" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="849" y="385" key="#Notifications" timestamp="1595666014167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="849" y="385" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1595666014167" />
     <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595658358002">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -160,13 +204,19 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2636" y="244" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658569326" />
-    <state x="2381" y="184" key="SettingsEditor" timestamp="1595659165668">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="544" y="265" key="IDE.errors.dialog" timestamp="1595666922811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="544" y="265" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595666922811" />
+    <state x="461" y="177" key="SettingsEditor" timestamp="1595660985676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="177" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595660985676" />
     <state x="2381" y="184" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595659165668" />
-    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595658852056">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2" timestamp="1595666053943">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595666053943" />
     <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658852056" />
     <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595658459554">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -180,5 +230,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2262" y="150" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658363915" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595664770914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595664770914" />
   </component>
 </project>
