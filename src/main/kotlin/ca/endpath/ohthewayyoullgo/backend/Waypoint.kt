@@ -5,15 +5,16 @@ import net.minecraft.util.math.BlockPos
 class Waypoint {
     private var _position : BlockPos
     private var _name : String
+    @Transient
     private val manager: WaypointManager
 
     public var position : BlockPos
     get() = _position
-    set(value){
-
+    set(value) {
         manager.waypointUpdated_position(this, value)
         this._position = value
     }
+
     public var name : String
     get() = _name
     set(value) {
@@ -28,4 +29,7 @@ class Waypoint {
         this._position = position
     }
 
+    public fun removeWaypoint() {
+        manager.waypointUpdates_removed(this)
+    }
 }
