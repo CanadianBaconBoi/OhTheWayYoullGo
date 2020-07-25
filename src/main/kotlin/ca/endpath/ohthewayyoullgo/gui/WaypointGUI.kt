@@ -9,7 +9,7 @@ import net.minecraft.entity.Entity
 import net.minecraft.util.math.BlockPos
 import kotlin.reflect.KFunction
 
-class WaypointGUI() : ExtendedScreen(Minecraft.getInstance().currentScreen) {
+class WaypointGUI : ExtendedScreen(Minecraft.getInstance().currentScreen) {
 
     private lateinit var guiTitle : Label
     private lateinit var addButton : Button
@@ -17,7 +17,7 @@ class WaypointGUI() : ExtendedScreen(Minecraft.getInstance().currentScreen) {
     private lateinit var nameBox : TextField
     private lateinit var waypointList : ScrollPanel
     private lateinit var waypoints : HashMap<ToggleButton, Waypoint>
-    private lateinit var activeWaypoint: ToggleButton
+    private var activeWaypoint: ToggleButton? = null
 
     override fun doesEscCloseGui(): Boolean = true
 
@@ -35,7 +35,7 @@ class WaypointGUI() : ExtendedScreen(Minecraft.getInstance().currentScreen) {
         waypointList.addAllComponents(*waypoints.keys.toTypedArray())
 
         addButton.setClickListener(addWaypoint((Minecraft.getInstance().player as Entity)::getPosition, nameBox::getText))
-        deleteButton.setClickListener(deleteWaypoint(::activeWaypoint.get()))
+        deleteButton.setClickListener(::activeWaypoint.get()?.let { deleteWaypoint(it) })
 
         addAllComponents(guiTitle, addButton, deleteButton)
     }
@@ -69,7 +69,7 @@ class WaypointGUI() : ExtendedScreen(Minecraft.getInstance().currentScreen) {
 
     private fun selectWaypoint(button: ToggleButton): Thread {
         return Thread {
-            activeWaypoint.value = false
+            activeWaypoint?.value  = false
             button.value = true
             activeWaypoint = button
         }
@@ -86,6 +86,7 @@ class WaypointGUI() : ExtendedScreen(Minecraft.getInstance().currentScreen) {
         return Thread {
             waypoints[waypoint]?.removeWaypoint()
             reloadWaypointList()
+            activeWaypoint = null
         }
     }
 
