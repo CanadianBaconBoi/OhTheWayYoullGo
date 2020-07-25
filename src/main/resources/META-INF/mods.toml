@@ -24,3 +24,9 @@ Nice minimap mod written in kotlin.
     versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
+[[dependencies.yourmodid]]
+    modId="eguilib"
+    mandatory=true
+    versionRange="[1.0.1,)"
+    ordering="NONE"
+    side="CLIENT"
