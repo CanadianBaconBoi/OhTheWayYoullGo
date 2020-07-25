@@ -1,7 +1,7 @@
 package ca.endpath.ohthewayyoullgo
 
-import ca.endpath.ohthewayyoullgo.events.KeyPressEventHandler
-import ca.endpath.ohthewayyoullgo.events.Keybinds
+import ca.endpath.ohthewayyoullgo.gui.events.KeyPressEventHandler
+import ca.endpath.ohthewayyoullgo.gui.events.Keybinds
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.ExtensionPoint
 import net.minecraftforge.fml.ModLoadingContext

@@ -1,4 +1,4 @@
-package ca.endpath.ohthewayyoullgo.events
+package ca.endpath.ohthewayyoullgo.gui.events
 
 import net.minecraft.client.settings.KeyBinding
 import net.minecraftforge.fml.client.registry.ClientRegistry
