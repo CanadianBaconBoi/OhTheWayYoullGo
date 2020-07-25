@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fAM16iNsRNMjtFV7Nf0SrWP52s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\OhTheWayYoullGo" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="" />
+      <created>1595656225820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595656225820</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595658358002">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658358002" />
+    <state x="2613" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595657171401">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="228" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595657171401" />
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1595657003997">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595657003997" />
+    <state x="2660" y="281" key="FileChooserDialogImpl" timestamp="1595658411000">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2660" y="281" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658411000" />
+    <state x="2381" y="184" key="SettingsEditor" timestamp="1595658516877">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2381" y="184" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658516877" />
+    <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595658459554">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658459554" />
+    <state x="2262" y="150" key="new project wizard" timestamp="1595658363915">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2262" y="150" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658363915" />
+  </component>
+</project>

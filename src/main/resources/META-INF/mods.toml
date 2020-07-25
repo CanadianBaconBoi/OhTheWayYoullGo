@@ -1,0 +1,26 @@
+# Make sure this is set to "kotlinforforge"
+modLoader="kotlinforforge"
+# Make sure this is set to the appropriate version range
+loaderVersion="[1.3,)" # Require at least 1.3.x
+
+[[mods]]
+modId="ohthewayyoullgo"
+version="${file.jarVersion}"
+displayName="Oh The Way You'll Go"
+credits="JourneyMap for inspiring us to make a mod better than it"
+authors="Koromaru, CanadianBacon"
+description='''
+Nice minimap mod written in kotlin.
+'''
+[[dependencies.ohthewayyoullgo]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ohthewayyoullgo]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
