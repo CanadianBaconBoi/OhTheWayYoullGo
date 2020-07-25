@@ -1,4 +1,4 @@
-package ca.endpath.ohthewayyoullgo.events
+package ca.endpath.ohthewayyoullgo.gui.events
 
 import ca.endpath.ohthewayyoullgo.gui.WaypointGUI
 import net.minecraft.client.Minecraft
