@@ -29,7 +29,7 @@ class WaypointManager {
 
     // Saves the current set of waypoints back to its file
     @Synchronized
-    public fun save(file: String) {
+    public fun save(file: String?) {
         if (file == null) {
             //TODO("LOG THE SOFT RETURN ON INVALID ATTEMPT")
             return // Soft Return
@@ -41,20 +41,20 @@ class WaypointManager {
     public fun createWaypoint(pos: BlockPos, name: String) : Waypoint {
         val v = Waypoint(this, pos, name)
         waypoints.add(v)
-        waypointUpdated_added(v)
+        waypointAddedUpdate(v)
         return v
     }
 
-    internal fun waypointUpdated_position(waypoint: Waypoint, new: BlockPos) {
+    internal fun waypointPositionUpdate(waypoint: Waypoint, new: BlockPos) {
 
     }
-    internal fun waypointUpdated_name(waypoint: Waypoint, new: String) {
+    internal fun waypointNameUpdate(waypoint: Waypoint, new: String) {
 
     }
-    internal fun waypointUpdated_added(waypoint: Waypoint) {
+    internal fun waypointAddedUpdate(waypoint: Waypoint) {
 
     }
-    internal fun waypointUpdates_removed(waypoint: Waypoint) {
+    internal fun waypointRemovedUpdate(waypoint: Waypoint) {
         waypoints.remove(waypoint) // adding code here because the event is fired from multiple places
     }
 }

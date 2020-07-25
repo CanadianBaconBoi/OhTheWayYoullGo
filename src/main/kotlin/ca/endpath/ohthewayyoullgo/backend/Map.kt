@@ -1,16 +1,14 @@
 package ca.endpath.ohthewayyoullgo.backend
 
 object Map {
-    private var waypointManager: WaypointManager = WaypointManager(null)
+    private var waypointManager = WaypointManager(null)
     private var worldId: String = ""
 
     public final fun isMapLoaded() : Boolean {
-        return worldId != "";
-    }
-    public final fun getWaypoint(): WaypointManager {
-        return waypointManager
+        return worldId != ""
     }
 
+    fun getWaypointManager() : WaypointManager = waypointManager
 
     // loads a waypoint and map
     // WorldID : Unique id of the server hash
@@ -34,6 +32,4 @@ object Map {
     {
 
     }
-
-    fun getWaypointManager() : WaypointManager = waypointManager
 }

@@ -11,14 +11,14 @@ class Waypoint {
     public var position : BlockPos
     get() = _position
     set(value) {
-        manager.waypointUpdated_position(this, value)
+        manager.waypointPositionUpdate(this, value)
         this._position = value
     }
 
     public var name : String
     get() = _name
     set(value) {
-        manager.waypointUpdated_name(this, value)
+        manager.waypointNameUpdate(this, value)
         this._name = value
     }
 
@@ -30,6 +30,6 @@ class Waypoint {
     }
 
     public fun removeWaypoint() {
-        manager.waypointUpdates_removed(this)
+        manager.waypointRemovedUpdate(this)
     }
 }
