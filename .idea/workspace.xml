@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="" />
+    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +16,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -67,6 +85,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2660" y="281" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658411000" />
+    <state x="2735" y="437" key="Github.ShareDialog" timestamp="1595658559438">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2735" y="437" key="Github.ShareDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658559438" />
+    <state x="2636" y="244" key="Github.UntrackedFilesDialog" timestamp="1595658569326">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2636" y="244" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658569326" />
     <state x="2381" y="184" key="SettingsEditor" timestamp="1595658516877">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
