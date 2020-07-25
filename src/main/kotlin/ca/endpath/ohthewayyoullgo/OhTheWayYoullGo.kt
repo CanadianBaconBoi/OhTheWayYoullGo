@@ -1,5 +1,8 @@
 package ca.endpath.ohthewayyoullgo
 
+import ca.endpath.ohthewayyoullgo.events.KeyPressEventHandler
+import ca.endpath.ohthewayyoullgo.events.Keybinds
+import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.ExtensionPoint
 import net.minecraftforge.fml.ModLoadingContext
 import net.minecraftforge.fml.common.Mod
@@ -24,6 +27,9 @@ object OhTheWayYoullGo {
 
         //This ugly line of code makes it so the server doesn't need the mod, only the client
         ModLoadingContext.get().registerExtensionPoint(ExtensionPoint.DISPLAYTEST) { Pair.of(Supplier { FMLNetworkConstants.IGNORESERVERONLY }, BiPredicate { _, _ -> true }) }
+
+        Keybinds.register()
+        MinecraftForge.EVENT_BUS.register(KeyPressEventHandler())
     }
 
     private fun onServerAboutToStart(event: FMLServerAboutToStartEvent) {
