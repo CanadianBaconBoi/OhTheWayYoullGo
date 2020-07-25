@@ -13,4 +13,6 @@ object Map {
 
 
     }
+
+    fun getWaypointManager() : WaypointManager = waypointManager
 }
