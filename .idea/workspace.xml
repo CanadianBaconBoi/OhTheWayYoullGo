@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b5deceae-4065-4278-8300-2f45b97755cb" name="Default Changelist" comment="Updating .idea files">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,12 +58,30 @@
       <option name="presentableId" value="Default" />
       <updated>1595656225820</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating README.md">
+      <created>1595658682532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595658682532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating .idea files">
+      <created>1595658705291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595658705291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Updating README.md" />
+    <MESSAGE value="Updating .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating .idea files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2643" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595658358002">
@@ -97,6 +112,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="184" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658516877" />
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595658733327">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2472" y="272" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1595658733327" />
     <state x="2689" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595658459554">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
