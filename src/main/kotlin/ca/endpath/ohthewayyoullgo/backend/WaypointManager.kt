@@ -23,9 +23,7 @@ class WaypointManager {
 
     // Clears all waypoints
     @Synchronized
-    public fun clear() {
-        waypoints.clear()
-    }
+    public fun clear() = waypoints.clear()
 
     // Saves the current set of waypoints back to its file
     @Synchronized
