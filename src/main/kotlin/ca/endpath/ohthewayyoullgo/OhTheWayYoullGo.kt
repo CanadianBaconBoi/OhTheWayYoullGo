@@ -1,7 +1,10 @@
 package ca.endpath.ohthewayyoullgo
 
+import ca.endpath.ohthewayyoullgo.backend.EventsHost
 import ca.endpath.ohthewayyoullgo.gui.events.KeyPressEventHandler
 import ca.endpath.ohthewayyoullgo.gui.events.Keybinds
+import net.minecraftforge.common.ForgeConfig
+import net.minecraftforge.common.ForgeMod
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.ExtensionPoint
 import net.minecraftforge.fml.ModLoadingContext
@@ -12,6 +15,7 @@ import org.apache.logging.log4j.Level
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import thedarkcolour.kotlinforforge.forge.FORGE_BUS
+import thedarkcolour.kotlinforforge.forge.MINECRAFT
 import java.util.function.BiPredicate
 import java.util.function.Supplier
 import org.apache.commons.lang3.tuple.Pair as Pair
@@ -30,6 +34,9 @@ object OhTheWayYoullGo {
 
         Keybinds.register()
         MinecraftForge.EVENT_BUS.register(KeyPressEventHandler())
+
+        // Register Generic Backend Events
+        MinecraftForge.EVENT_BUS.register(EventsHost)
     }
 
     private fun onServerAboutToStart(event: FMLServerAboutToStartEvent) {

@@ -26,10 +26,4 @@ object Map {
         val mapFolder = "./$worldId"
         waypointManager.save("$mapFolder/waypoints.bin")
     }
-
-
-    private final fun onHandleConnection()
-    {
-
-    }
 }
